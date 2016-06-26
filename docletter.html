@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+
+
+    <!-- bootstrap for popup -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- END bootstrap for popup -->
+
+    <meta charset="windows-1251">
+    <title>Medical Tourism</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style_main.css" rel="stylesheet">
+
+    <!--Start of Helpig Live Chat Script-->
+    <script type="text/javascript">window.$helpig||function(t,e){var n=$helpig=function(){},r=n.script=t.createElement(e),s=t.getElementsByTagName(e)[0];n.getKey=function(){return"UHJsmfcxWGXu6VrjPnFC25lQEkeAML8v9BZITz1ai0wgNK4SyD"},r.async=!0,r.setAttribute("charset","utf-8"),r.src="//visitors.helpig.com/src/js/api/widget.js",r.type="text/javascript",s.parentNode.insertBefore(r,s)}(document,"script");</script>
+    <!--End of Helpig Live Chat Script-->
+
+    <!-- Our MENU stylesheet file -->
+    <link rel="stylesheet" href="css/menu.css" />
+    <!-- Including the Lobster font from Google's Font Directory -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" />
+    <link href='https://fonts.googleapis.com/css?family=Philosopher:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- Enabling HTML5 support for Internet Explorer -->
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="homeIcon"><div></div></a>
+</header>
+
+<nav>
+    <ul class="fancyNav">
+        <li id="company"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp О нас</a></li>
+        <li id="news"><a href="docletter.html">Письмо доктору</a></li>
+        <li id="about"><a href="otziv.html">Отзывы </a></li>
+        <li id="services"><a href="service.html">Сервисы</a></li>
+        <li id="contact"><a href="contacts.html">Контакты</a></li>
+    </ul>
+</nav>
+
+<div class="wrapper">
+
+    <div id="container">
+
+        <div id="content">
+            <div id="text">
+
+                <h3>Написать письмо доктору</h3>
+                <hr>
+                <div class="b-page__main"  id="section2">
+                <div class="container-fluid">
+                <div class="b-page_main__wrap70">
+                <form method="post" action="form_processing.php">
+                <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-121 col col-xs-12">
+                <div id="accordion" class="panel group transparent ">
+
+                <!-- 1st Field-->
+                <div class="panel panel-primary no-margin">
+                    <div class="panel-heading form-doctor">
+                        <h4 class="panel-title">
+                            Персональная информация:
+                        </h4>
+                    </div>
+                    <div>
+                        <div class="panel-body">
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-6 form-group form-group-sm">
+                                    <label>Имя</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" placeholder="Ваше имя" name="first_name" class="form-control" aria-label="Имя пациента" required="required">
+                                        <span class="input-group-addon input_span_last required_star"> *</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 form-group form-group-sm">
+                                    <label>Год рождения</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" placeholder="Ваш год рождения" name="dob" class="form-control" aria-label="Год рождения пациента" required="required">
+                                        <span class="input-group-addon input_span_last required_star">*</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-md-2 form-group form-group-sm">
+                                    <label>Пол</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" placeholder="М / Ж" name="street_address" class="form-control" aria-label="Пол" required="required">
+                                        <span class="input-group-addon input_span_last required_star"> *</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 form-group form-group-sm">
+                                    <label>Поставленный диагноз</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" placeholder="Поставленный диагноз (если несколько - напишите все)" name="city" class="form-control" aria-label="Диагноз" required="required">
+                                        <span class="input-group-addon input_span_last required_star">*</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col-lg-3 col-md-3 form-group form-group-sm">
+                                    <label>Страна проживания</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" placeholder="Страна проживания" name="last_name" class="form-control" aria-label="Страна проживания" required="required">
+                                        <span class="input-group-addon input_span_last required_star">*</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-4 form-group form-group-sm">
+                                    <label>Email</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" placeholder="Email для обратной связи" name="ssn" class="form-control" aria-label="Email"  required="required">
+                                        <span class="input-group-addon input_span_last required_star"> *</span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 col-md-5 form-group form-group-sm">
+                                    <label>Дополнительный контакт</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" placeholder="Cкайп или телефон для связи (Viber / Whatsapp)" name="state" class="form-control" aria-label="Дополнительный контакт">
+                                        <span class="input-group-addon input_span_last required_star"> </span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-lg-7 col-md-7 form-group">
+                                    <label>Откуда узнали о нас</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" placeholder="Если не сложно в двух словах" name="vehicle" class="form-control" aria-label="Откуда узнали про медицинский туризм">
+                                        <span class="input-group-addon input_span_last required_star"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 form-group form-group-sm" >
+                                    <label>История болезни</label>
+                                    <textarea class="form-control"  placeholder="Напишите подробно историю протекания болезни и ваше текущее состояние" rows="5" name="zip" aria-label="История  болезни" required="required"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 form-group form-group-sm" >
+                                    <label for="exampleInputFile">Приложить файл</label>
+                                    <input type="file" id="exampleInputFile">
+                                    <p class="help-block">Приложите файл с анализами(если это необходимо)</p>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-lg-9 col-md-9 form-group form-group-sm" >
+                                    <div class="button">
+                                        <input type="submit" value="Отправить" id="send_form" class="btn btn-submit btn-success btn-md" name="submit" title="Отправить форму">
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-2 form-group form-group-sm" >
+                                    <div class="button reset_button">
+                                        <input type="reset" value="Сбросить набранное" class="btn btn-submit btn-danger btn-sm" name="reset" title="Обновить форму">
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                </div>
+                </div>
+
+                </form>
+                </div>
+                </div>
+                </div>
+
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 iframe">
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+                        </div>
+                    </div>
+                 </div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+        <div id="left">
+            <div class="list-group">
+                <a href="#" class="list-group-item active contact-p change-color-gray">
+                    <h4>Партнеры:</h4>
+                </a>
+                <a href="http://www.princetonhcs.org/" class="list-group-item">госпиталь Princeton</a>
+                <a href="http://www.rwjuh.edu/" class="list-group-item">госпиталь RWJ</a>
+                <a href="http://www.barnabashealth.org/" class="list-group-item">госпиталь Newark Beth</a>
+                <a href="https://www.jfkmc.org/" class="list-group-item">госпиталь Kennedy</a>
+            </div>
+
+        </div>
+
+        <div id="right">
+            <div class="list-group">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                            <h4>Свяжитесь с нами:</h4>
+                        </div>
+                    </div>
+                    <a href="contacts.html">
+                        <div class="row animated pulse">
+
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 contact-p contact-p">
+                                <p>
+                                    +1-732-781-6661:
+                                </p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/icons/phone1.png" class="img-responsive">
+                            </div>
+
+                        </div>
+                    </a>
+                    <a href="contacts.html">
+                        <div class="row animated pulse">
+
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 contact-p">
+                                <p>
+                                    Email:
+                                </p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/icons/email1.png" class="img-responsive">
+                            </div>
+
+                        </div>
+                    </a>
+                    <a href="contacts.html">
+                        <div class="row animated pulse">
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 contact-p">
+                                <p>
+                                    Одноклассники:
+                                </p>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/icons/ok1.png" class="img-responsive">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="contacts.html">
+                        <div class="row animated pulse">
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 contact-p">
+                                <p>
+                                    Вконтакте:
+                                </p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/icons/vk1.png" class="img-responsive">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="contacts.html">
+                        <div class="row animated pulse">
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 contact-p">
+                                <p>
+                                    Facebook:
+                                </p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/icons/fb1.png" class="img-responsive">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="contacts.html">
+                        <div class="row animated pulse">
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 contact-p">
+                                <p>
+                                    Twitter:
+                                </p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/icons/tw1.png" class="img-responsive">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="contacts.html">
+                        <div class="row animated pulse">
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 contact-p">
+                                <p>
+                                    Skype:
+                                </p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/icons/skype1.png" class="img-responsive">
+                            </div>
+                        </div>
+                    </a>
+                    <a href="contacts.html">
+                        <div class="row animated pulse">
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 contact-p">
+                                <p>
+                                    Viber:
+                                </p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/icons/viber1.png" class="img-responsive">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="contacts.html">
+                        <div class="row animated pulse">
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 contact-p">
+                                <p>
+                                    Whatsapp:
+                                </p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/icons/whapp1.png" class="img-responsive">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+
+    <div class="container over-footer">
+
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 animated pulse">
+                <a href="#" title="Консультация терапевта" data-toggle="popover" data-placement="top" data-trigger="hover"
+               data-content="Предварительная консультация важна для корректного назначения лечения. Данный этап необходим для оценки состояния
+                пациента и планирования дальнейшего лечения. Консультация платная, ведется русскоговорящим
+                 сертифицированным доктором из США">
+                    <img src="img/footer/ks.png" class="img-responsive">
+                </a>
+            </div>
+
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 animated pulse">
+                <a href="#" title="Трансфер" data-toggle="popover" data-placement="top" data-trigger="hover"
+                   data-content="Наша компания организовывает трансфер из аэропорта до места проживания / лечения любым удобным видом транспорта
+                   (лимузин / микроавтобус с инвалидной коляской / скорая помощь с насилками)">
+                    <img src="img/footer/tr.png" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 animated pulse">
+                <a href="#" title="Размещение" data-toggle="popover" data-placement="top" data-trigger="hover"
+                   data-content="По желанию клиента наша компания подбирает место для проживания (палата госпиталя / коттедж / квартира / гостиница)">
+                    <img src="img/footer/dom.png" class="img-responsive">
+                </a>
+            </div>
+
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 animated pulse">
+                <a href="#" title="Анализы" data-toggle="popover" data-placement="top" data-trigger="hover"
+                   data-content="Для проведения лечения необходимы анализы сделанные в клинике США, помимо исключения
+                   поставленных вам неыерных диагнозов - это является необходимым условием для лечения в США">
+                    <img src="img/footer/an.png" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 animated pulse">
+                <a href="#" title="Лечение" data-toggle="popover" data-placement="top" data-trigger="hover"
+                   data-content="Медицинский туризм это возможность получить доступ к самым лучшим
+                 медицинским технологиям для воздоровления. Основная часть лечения проводится
+                на базе Princeton Hospital (Принстанский госпиталь), для некоторых видов операций используется врачующий робот Da'Vinci">
+                    <img src="img/footer/lech.png" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 animated pulse">
+                <a href="#" title="Туризм" data-toggle="popover" data-placement="top" data-trigger="hover"
+                 data-content="Находясь в США наши клиенты зачастую желают познакомиться с Америкой, в частности с Нью-Йорком.
+                 С этой целью наша компания предлагает множество сервисов - от транспорта и помощи в покупке билетов на мероприятия до предоставления
+                 переводчиков и туристических гидов">
+                    <img src="img/footer/tur.png" class="img-responsive">
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <footer>
+
+<div>
+
+
+
+</div>
+        <p>Copyright</p>
+
+    </footer>
+
+</div>
+
+
+
+
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
+</body>
+</html>
