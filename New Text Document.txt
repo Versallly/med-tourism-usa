@@ -1,14 +1,20 @@
 http://pcvector.net/scripts/buttons_and_icons/414-knopka-podelitsya-cherez-socialnye-seti.html
 
-Имя - first_name
-Ваш год рождения - dob
+1 Имя - first_name
+2 Ваш год рождения - dob
 
-М / Ж - street_address
-Поставленный диагноз - city
-Страна проживания - last_name
-Email для обратной связи - ssn
-Cкайп или телефон для связи - state
-Откуда узнали о нас - vehicle
-История болезни - zip
+3 Cкайп или телефон для связи - contact
+
+4 Email для обратной связи - email
+5 М / Ж - sex
+6 Страна проживания - country
+7 Поставленный диагноз - diagnose
+
+8  узнали о нас - reference
+9 История болезни - history
+
+
+
+
 Приложить файл
 Отправить - submit
